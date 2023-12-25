@@ -1,0 +1,707 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  position: relative;
+}
+
+header {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  z-index: 5;
+}
+header nav {
+  width: 85%;
+  margin: auto;
+}
+header nav .navButton {
+  background-color: white;
+}
+header nav .collapseDiv {
+  justify-content: flex-end;
+}
+header nav .collapseDiv .navbar-nav li a {
+  color: white !important;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 991px) {
+  header {
+    background-color: black;
+  }
+}
+#adventure {
+  width: 100%;
+  height: 640px;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("https://preview.colorlib.com/theme/adventure/img/slider2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#adventure .container {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#adventure .container .adventureItem {
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: 30px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+#adventure .container .adventureItem h5 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 23px;
+  color: white;
+  font-weight: 700;
+}
+#adventure .container .adventureItem h1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 50px;
+  color: white;
+  font-weight: 600;
+}
+#adventure .container .adventureItem p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  color: white;
+}
+#adventure .container .adventureItem button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 180px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  background-color: white;
+  color: black;
+  font-weight: 600;
+}
+#adventure .container .adventureItem button:hover {
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+}
+
+#drop {
+  width: 100%;
+  height: auto;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#drop .container {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.buttons {
+  margin: 10%;
+  text-align: center;
+}
+
+.btn-hover {
+  width: 200px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin: 20px;
+  height: 55px;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 50px;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.btn-hover:hover {
+  background-position: 100% 0;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.btn-hover:focus {
+  outline: none;
+}
+
+.btn-hover.color-1 {
+  background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
+  box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+}
+
+.btn-hover.color-2 {
+  background-image: linear-gradient(to right, #f5ce62, #e43603, #fa7199, #e85a19);
+  box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
+}
+
+.btn-hover.color-3 {
+  background-image: linear-gradient(to right, #667eea, #764ba2, #6B8DD6, #8E37D7);
+  box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+}
+
+.btn-hover.color-4 {
+  background-image: linear-gradient(to right, #fc6076, #ff9a44, #ef9d43, #e75516);
+  box-shadow: 0 4px 15px 0 rgba(252, 104, 110, 0.75);
+}
+
+.btn-hover.color-5 {
+  background-image: linear-gradient(to right, #0ba360, #3cba92, #30dd8a, #2bb673);
+  box-shadow: 0 4px 15px 0 rgba(23, 168, 108, 0.75);
+}
+
+.btn-hover.color-6 {
+  background-image: linear-gradient(to right, #009245, #FCEE21, #00A8C5, #D9E021);
+  box-shadow: 0 4px 15px 0 rgba(83, 176, 57, 0.75);
+}
+
+.btn-hover.color-7 {
+  background-image: linear-gradient(to right, #6253e1, #852D91, #A3A1FF, #F24645);
+  box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);
+}
+
+.btn-hover.color-8 {
+  background-image: linear-gradient(to right, #29323c, #485563, #2b5876, #4e4376);
+  box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
+}
+
+.btn-hover.color-9 {
+  background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
+  box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+}
+
+.btn-hover.color-10 {
+  background-image: linear-gradient(to right, #ed6ea0, #ec8c69, #f7186a, #FBB03B);
+  box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
+}
+
+.btn-hover.color-11 {
+  background-image: linear-gradient(to right, #eb3941, #f15e64, #e14e53, #e2373f);
+  box-shadow: 0 5px 15px rgba(242, 97, 103, 0.4);
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  padding: 30px;
+  border-top: 1px solid rgb(228, 220, 220);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+footer .container {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+footer .container .foot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .container .foot span {
+  color: white;
+}
+
+#Productfiltered {
+  width: 100%;
+  height: auto;
+  padding: 30px;
+  background-color: bisque;
+}
+#Productfiltered .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#ApiProducts {
+  width: 100%;
+  height: auto;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #A65B23;
+}
+#ApiProducts .container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#ApiProducts .container .ApiProductsHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#ApiProducts .container #productList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  padding: 10px;
+  border: 1px solid black;
+}
+#ApiProducts .container #productList .boxDiv {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 5px;
+}
+#ApiProducts .container #productList .boxDiv img {
+  width: 100%;
+  height: auto;
+}
+#ApiProducts .container #productList .boxDiv .title {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+#ApiProducts .container #productList .boxDiv .price {
+  font-size: 20px;
+  font-weight: 600;
+  color: red;
+}
+#ApiProducts .container #productList .boxDiv button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 40px;
+  border: none;
+  background-color: brown;
+  color: white;
+  border-radius: 8px;
+  font-weight: 600;
+}
+#ApiProducts .container #productList .boxDiv button:hover {
+  background-color: black;
+  cursor: pointer;
+}
+#ApiProducts .container #pagi {
+  margin-top: 20px;
+  width: 160px;
+  height: 40px;
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
+#ApiProducts .container #pagi:hover {
+  background-color: brown;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  position: relative;
+}
+
+header {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  z-index: 5;
+}
+header nav {
+  width: 85%;
+  margin: auto;
+}
+header nav .navButton {
+  background-color: white;
+}
+header nav .collapseDiv {
+  justify-content: flex-end;
+}
+header nav .collapseDiv .navbar-nav li a {
+  color: white !important;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 991px) {
+  header {
+    background-color: black;
+  }
+}
+#adventure {
+  width: 100%;
+  height: 640px;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("https://preview.colorlib.com/theme/adventure/img/slider2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#adventure .container {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#adventure .container .adventureItem {
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: 30px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+#adventure .container .adventureItem h5 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 23px;
+  color: white;
+  font-weight: 700;
+}
+#adventure .container .adventureItem h1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 50px;
+  color: white;
+  font-weight: 600;
+}
+#adventure .container .adventureItem p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  color: white;
+}
+#adventure .container .adventureItem button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 180px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  background-color: white;
+  color: black;
+  font-weight: 600;
+}
+#adventure .container .adventureItem button:hover {
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+}
+
+#Productfiltered {
+  width: 100%;
+  height: auto;
+  padding: 30px;
+  background-color: #A65B23;
+}
+#Productfiltered .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#Product {
+  width: 100%;
+  height: auto;
+  padding: 30px;
+  background-color: #A65B23;
+}
+#Product .container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#Product .container #products {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  border: 1px solid black;
+  padding: 20px;
+}
+#Product .container #products .box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 25%;
+}
+#Product .container #products .box img {
+  width: 100%;
+  height: auto;
+}
+#Product .container #products .box .title {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+#Product .container #products .box .price {
+  font-size: 20px;
+  font-weight: 600;
+  color: red;
+}
+#Product .container #products .box button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 40px;
+  border: none;
+  background-color: brown;
+  color: white;
+  border-radius: 8px;
+  font-weight: 600;
+}
+#Product .container #products .box button:hover {
+  background-color: black;
+  cursor: pointer;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  padding: 30px;
+  border-top: 1px solid rgb(228, 220, 220);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+footer .container {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+footer .container .foot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .container .foot span {
+  color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  position: relative;
+}
+
+header {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  z-index: 5;
+}
+header nav {
+  width: 85%;
+  margin: auto;
+}
+header nav .navButton {
+  background-color: white;
+}
+header nav .collapseDiv {
+  justify-content: flex-end;
+}
+header nav .collapseDiv .navbar-nav li a {
+  color: white !important;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 991px) {
+  header {
+    background-color: black;
+  }
+}
+#adventure {
+  width: 100%;
+  height: 640px;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("https://preview.colorlib.com/theme/adventure/img/slider2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#adventure .container {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#adventure .container .adventureItem {
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: 30px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+#adventure .container .adventureItem h5 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 23px;
+  color: white;
+  font-weight: 700;
+}
+#adventure .container .adventureItem h1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 50px;
+  color: white;
+  font-weight: 600;
+}
+#adventure .container .adventureItem p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  color: white;
+}
+#adventure .container .adventureItem button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 180px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  background-color: white;
+  color: black;
+  font-weight: 600;
+}
+#adventure .container .adventureItem button:hover {
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+}
+
+#FormMethod {
+  width: 100%;
+  height: auto;
+  padding: 30px;
+  background-image: url("https://preview.colorlib.com/theme/adventure/img/slider3.jpg");
+  background-position: center;
+  background-size: cover;
+}
+#FormMethod .container {
+  margin-top: 20px;
+}
+#FormMethod .container p {
+  font-size: large;
+  font-weight: 700;
+}
+#FormMethod .container label {
+  color: black;
+}
+#FormMethod .container input {
+  border: 2px solid black;
+}
+
+#displayCard .container #display {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+#displayCard .container #display .box {
+  width: 250px;
+  padding: 25px;
+  background-color: bisque;
+  box-shadow: 0 1px 10px rgb(0, 0, 0);
+}
+#displayCard .container #display .box span {
+  font-weight: 500;
+  font-size: 18px;
+}
+#displayCard .container #display .box button {
+  color: #fff;
+  background-color: brown;
+  transition: 1s;
+  padding: 10px;
+  border-radius: 20px;
+  display: flex;
+  gap: 10px;
+  font-weight: 600;
+  justify-content: center;
+  align-items: center;
+}
+#displayCard .container #display .box button:hover {
+  color: white;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  padding: 30px;
+  border-top: 1px solid rgb(228, 220, 220);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+footer .container {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+footer .container .foot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .container .foot span {
+  color: white;
+}
